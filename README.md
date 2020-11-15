@@ -1,4 +1,5 @@
-# Python-pip-VSCODE-EXTENSIONS-ENVIROMENT VARIABLES
+# Python-pip-VSCODE-EXTENSIONS-ENVIROMENT VARIABLES 
+# Tested on Windows 20h2
 Simple guideline to Install Visual Studio Code, Python, and PIP and as Bonus some Extensions in a couple of mins
 
 Disclaimer take this in your own responsability, feel free to make any suggestions or findings.
