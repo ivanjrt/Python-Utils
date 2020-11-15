@@ -1,3 +1,6 @@
+# copy and run segments by comments. if anything this is a Beta Version of a final product 
+# which at the moment don't have the time to make it state of the art but feel free to help if you want to
+
 #Install VSC
 	if (!(Test-Path -Path c:\temp)) {md c:\temp}
 	$output = "C:\Temp"
