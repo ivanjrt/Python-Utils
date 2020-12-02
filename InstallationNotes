@@ -1,0 +1,4 @@
+#Installation method
+#Run the below against Powershell as Admin
+
+iwr -Uri 'https://raw.githubusercontent.com/ivanjrt/Python-pip/main/MainFile.ps1' | iex
