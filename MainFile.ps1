@@ -45,12 +45,10 @@ write-output "Adding Extensions to VSC..."
 	    "aki12n.multiwindows-highlight",
 	    "ms-vscode.powershell",
 	    "esbenp.prettier-vscode"
-	foreach ($extension in $extensions)	{
+	foreach ($extension in $extensions){
 		.\code.cmd --install-extension $extension
 	}
-  #
-  #
-		
+	
 #To Upgrade your PIP
 write-output "Upgrading PIP..."
 	python -m pip install --upgrade pip
