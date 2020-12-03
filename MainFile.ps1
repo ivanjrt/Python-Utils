@@ -59,5 +59,8 @@ write-output "Upgrading PIP..."
 #Bonus: PowerShell 7
 write-output "Installing PowerShell 7..."
 iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI -Quiet"
+#Server Feature
+write-output "Enabling HyperV..."
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 	
