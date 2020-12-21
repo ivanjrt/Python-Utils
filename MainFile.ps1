@@ -17,9 +17,9 @@ write-output "Installing Python 3.9..."
 	#so if anything goes bad, then you know what to put back
 	#or if you prefer do it manually, just add the path "c:\.... as shown below"
 write-output "Adding Pythong Variable Paths..."
-	setx PATH "%PATH%;C:\Program Files\Python39\"
-	setx PATH "%PATH%;C:\Program Files\Python39\Scripts"
-	setx path "%path%;C:\Program Files\Microsoft VS Code"
+ 	$env:path += 'C:\Program Files\Python39\'
+	$env:path += 'C:\Program Files\Python39\Scripts'
+	$env:path += 'C:\Program Files\Microsoft VS Code'
 	
 	#RESTART YOUR CONSOLE
 	
