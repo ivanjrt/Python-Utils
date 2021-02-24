@@ -13,15 +13,20 @@ write-output "Installing Python 3.9..."
 	iwr -Uri "https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe" -UseBasicParsing -OutFile $output\Python.EXE
 	Start-Process -Wait -FilePath $output\Python.EXE -Argument "/quiet InstallAllUsers=1 PrependPath=1"
 	
+
+
+#########JUST IN CASE DOESN'T DO THE PATH RIGHT
 	#Warning!!!. ScreenShot your Windows "ENVIROMEENT VARIABLES" location: USER > PATH, then apply the below
 	#so if anything goes bad, then you know what to put back
 	#or if you prefer do it manually, just add the path "c:\.... as shown below"
-write-output "Adding Pythong Variable Paths..."
+	write-output "Adding Pythong Variable Paths..."
  	$env:path += 'C:\Program Files\Python39\'
 	$env:path += 'C:\Program Files\Python39\Scripts'
 	$env:path += 'C:\Program Files\Microsoft VS Code'
-	
 	#RESTART YOUR CONSOLE
+############	
+	
+	
 	
 #adding exts Python Ext in VSC
 write-output "Adding Extensions to VSC..."
