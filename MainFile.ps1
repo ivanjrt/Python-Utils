@@ -26,6 +26,7 @@ write-verbose 'Ignore Errs if any...' -verbose
 	#Bonus -NOT required, But these are pretty cool 
 	$extensions = "ms-vscode.azurecli",
 	    "msazurermtools.azurerm-vscode-tools",
+	    "msazurermtools.azurerm-vscode-tools",
 	    "coenraads.bracket-pair-colorizer-2",
 	    "ms-dotnettools.csharp",
 	    "formulahendry.code-runner",
@@ -35,7 +36,16 @@ write-verbose 'Ignore Errs if any...' -verbose
 	    "buster.marko-beautify",
 	    "aki12n.multiwindows-highlight",
 	    "ms-vscode.powershell",
-	    "esbenp.prettier-vscode"
+	    "esbenp.prettier-vscode",
+	    "hookyqr.beautify",
+	    "grapecity.gc-excelviewer",
+	    "file-icons.file-icons",
+	    "ankitcode.firefly",
+	    "cliffordfajardo.highlight-line-vscode",
+	    "oderwat.indent-rainbow",
+	    "hoovercj.vscode-power-mode",
+	    "mohsen1.prettify-json",
+	    "2gua.rainbow-brackets"
 	foreach ($extension in $extensions){
 		.\code.cmd --install-extension $extension
 	}
