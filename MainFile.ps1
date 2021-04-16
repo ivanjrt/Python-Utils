@@ -45,7 +45,8 @@ write-verbose 'Ignore Errs if any...' -verbose
 	    "oderwat.indent-rainbow",
 	    "hoovercj.vscode-power-mode",
 	    "mohsen1.prettify-json",
-	    "2gua.rainbow-brackets"
+	    "2gua.rainbow-brackets",
+	    "cweijan.vscode-office"
 	foreach ($extension in $extensions){
 		.\code.cmd --install-extension $extension
 	}
